@@ -23,6 +23,7 @@ The dataset includes:
 - Removed redundant features using correlation and scatter plot analysis.
 - Normalized features (0–1 range) to ensure comparability.
 - Split into training, validation, and test sets.
+
 **Tools used: Excel Analytic Solver and manual data transformations.**
 
 ## Methodology
@@ -41,11 +42,13 @@ The dataset includes:
 
 ## Evaluation Metrics
 |Metric	|Classification Tree|	Logistic Regression|
+|-------|--------------------|-------------------|
 |Accuracy|	93.86%	|92.54%|
 |Sensitivity|	89.41%	|93.00%|
 |Specificity	|96.50%	|91.76%|
 |Precision|	93.83%	|95.00%|
 |F1 Score|	91.57	|93.99|
+
 **Insight: While the classification tree had slightly higher accuracy and specificity, the logistic regression model was superior in detecting malignant tumors—crucial for reducing false negatives.**
 
 ## Key Insights
